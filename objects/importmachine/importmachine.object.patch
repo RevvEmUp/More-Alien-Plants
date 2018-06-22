@@ -1,1 +1,17 @@
-
+[
+  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "bonefruitseed" } },
+  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "carapakelseed" } },
+  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "eyeberryseed" } },
+  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "fattyleafseed" } },
+  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "funnelberryseed" } },
+  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "glycoleafseed" } },
+  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "grazerfruitseed" } },
+  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "marrowfruitseed" } },
+  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "meatsackseed" } },
+  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "mebulonseed" } },
+  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "orblornseed" } },
+  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "photoglobseed" } },
+  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "veingrassseed" } },
+  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "veinvineseed" } },
+  { "op" : "replace", "path" : "/interactData/sellFactor", "value" : 1.0 }
+]
