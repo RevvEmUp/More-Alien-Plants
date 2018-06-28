@@ -1,31 +1,31 @@
 {
-  "objectName" : "grapesseed",
+  "objectName" : "orblornseed",
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "seed",
-  "description" : "Grapes, natures snackfood.",
-  "shortdescription" : "Grape Seed",
+  "description" : "That's a big fruit.",
+  "shortdescription" : "Orblorn Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 30,
+  "price" : 600,
 
-  "apexDescription" : "A luxury fruit. Sadly, many Apex never get to taste them.",
-  "avianDescription" : "Small, simple, peckable grapes.",
-  "floranDescription" : "Grapes are bursssty and juicy, like purple eyeballsss.",
-  "glitchDescription" : "Cheeky. Grapes make for good projectiles as well as good snacks.",
-  "humanDescription" : "Grapes. A traditional gift for those in the medical bay.",
-  "hylotlDescription" : "Sea grapes taste so much better, these are too sweet.",
-  "novakidDescription" : "Grapes are good for snackin'.",
+  "apexDescription" : "One of the least weird tasting crops from Zariventrica.",
+  "avianDescription" : "This is a delicious fruit for a Zariventrican plant from what I was told.",
+  "floranDescription" : "Sssweet ball...",
+  "glitchDescription" : "Joke. Maybe this can be used in some sport.",
+  "humanDescription" : "It reminds me of basketballs.",
+  "hylotlDescription" : "Tastes a bit like pineapple I heard.",
+  "novakidDescription" : "For you.",
 
-  "inventoryIcon" : "grapesseedicon.png",
+  "inventoryIcon" : "orblornseedicon.png",
 
   "tooltipKind" : "seed",
-  "largeImage" : "grapesseed.png:default.3.0",
+  "largeImage" : "orblornseed.png:default.3.0",
 
 
   "orientations" : [
     {
-      "dualImage" : "grapesseed.png:<color>.<stage>.<alt>",
+      "dualImage" : "orblornseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
@@ -52,7 +52,7 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "grapesHarvest",
+      "harvestPool" : "orblornHarvest",
       "resetToStage" : 2
     }
   ],
