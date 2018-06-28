@@ -1,1 +1,52 @@
+{
+  "objectName" : "glycoleafseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "Smells like sugar.",
+  "shortdescription" : "Glycoleaf Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 360,
 
+  "apexDescription" : "The least unusual product from Zariventrica.",
+  "avianDescription" : "At least this one is actually a plant.",
+  "floranDescription" : "Purple flowersss...",
+  "glitchDescription" : "Analysis. The petals on this are edible.",
+  "humanDescription" : "This looks really nice.",
+  "hylotlDescription" : "For a Zariventrican plant, this looks beautiful.",
+  "novakidDescription" : "Hey! A Zariventrica plant that actually is made from plant stuff.",
+
+  "inventoryIcon" : "glycoleafseedicon.png",
+  
+  "tooltipKind" : "seed",
+  "largeImage" : "glycoleafseed.png:default.2.0",
+  
+  "orientations" : [
+    {
+      "dualImage" : "glycoleafseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [300, 400]
+    },
+    {
+      "duration" : [300, 400]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "glycoleafHarvest",
+      "resetToStage" : 0
+    }
+  ],
+    "maxImmersion" : 0.25
+}
