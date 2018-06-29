@@ -37,10 +37,10 @@
 
   "stages" : [
     {
-      "duration" : [300, 400]
+      "duration" : [450, 550]
     },
     {
-      "duration" : [300, 400]
+      "duration" : [450, 550]
     },
     {
       "alts" : 5,
