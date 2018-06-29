@@ -1,1 +1,56 @@
+{
+  "objectName" : "photoglobseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "A glowing taproot.",
+  "shortdescription" : "Photoglob Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 600,
 
+  "apexDescription" : "This plant emits light with a yet unknown method.",
+  "avianDescription" : "Okay, that's bright!",
+  "floranDescription" : "White carrot make light.",
+  "glitchDescription" : "Suggestion. This could be used as a lightbulb.",
+  "humanDescription" : "If it provides light and plants need light to make food, is it making unlimited energy?",
+  "hylotlDescription" : "Fascinating.",
+  "novakidDescription" : "Wow, it glows!",
+
+  "inventoryIcon" : "photoglobseedicon.png",
+
+  "tooltipKind" : "seed",
+  "largeImage" : "photoglobseed.png:default.2.0",
+
+
+  "orientations" : [
+    {
+      "imageLayers" : [{ "image" : "photoglobseed.png:<color>.<stage>.<alt>", "fullbright" : true}, { "image" : "photoglobseedlit.png:<color>.<stage>.<alt>"}],
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [855, 630]
+    },
+    {
+      "duration" : [855, 630]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "photoglobHarvest"
+    }
+  ],
+
+  "maxImmersion" : 0.25
+}
