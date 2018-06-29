@@ -1,1 +1,57 @@
+{
+  "objectName" : "veinvineseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "A vein growing out of the ceiling.",
+  "shortdescription" : "Kelp Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 760,
 
+  "apexDescription" : "A plant that grows kelp.",
+  "avianDescription" : "Imagine if this was part of an animal.",
+  "floranDescription" : "Yummy hanging blood.",
+  "glitchDescription" : "Observation. A larger version of an organic blood vessel.",
+  "humanDescription" : "Ew! No, no, no, no!",
+  "hylotlDescription" : "Feels like Hylotl skin, but wrong.",
+  "novakidDescription" : "I wonder what it tastes like?",
+
+  "inventoryIcon" : "veinvineseedicon.png",
+  
+  "tooltipKind" : "seed",
+  "largeImage" : "veinvineseed.png:default.2.0",
+  
+  "orientations" : [
+    {
+      "dualImage" : "veinvineseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-2, 1],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "top" ]
+
+    }
+  ],
+  
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+  
+  "stages" : [
+    {
+      "duration" : [550, 660]
+    },
+    {
+      "duration" : [550, 660]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "veinvineHarvest",
+      "resetToStage" : 0
+    }
+  ],
+
+  "consumeSoilMoisture" : false,
+  "maxImmersion" : 0.99
+  }
