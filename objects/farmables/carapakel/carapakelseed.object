@@ -1,1 +1,57 @@
+{
+  "objectName" : "carapakelseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "A fruit with chitin armor.",
+  "shortdescription" : "Carapakel Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 1000,
 
+  "apexDescription" : "This fruit closely resembles a beetle.",
+  "avianDescription" : "It'll take a few pecks to get through this fruit.",
+  "floranDescription" : "Fruit have armor. Floran don't have natural armor.",
+  "glitchDescription" : "Observant. The chitin armor on this fruit is only slightly weaker than mine.",
+  "humanDescription" : "It looks like a giant beetle hiding in a dead bush.",
+  "hylotlDescription" : "The fruit appears to have a chitin carapace.",
+  "novakidDescription" : "Is that a bug-plant?",
+
+  "inventoryIcon" : "carapakelseedicon.png",
+
+  "tooltipKind" : "seed",
+  "largeImage" : "carapakelseed.png:default.2.0",
+
+
+  "orientations" : [
+    {
+      "dualImage" : "carapakelseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [855, 945]
+    },
+    {
+      "duration" : [855, 945]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "carapakelHarvest",
+      "resetToStage" : 1
+    }
+  ],
+
+  "maxImmersion" : 0.25
+}
