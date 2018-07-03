@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "category" : "seed",
   "description" : "A vein growing out of the ceiling.",
-  "shortdescription" : "Kelp Seed",
+  "shortdescription" : "Veinvine Seed",
   "objectType" : "farmable",
   "printable" : false,
   "price" : 760,
@@ -25,7 +25,7 @@
   "orientations" : [
     {
       "dualImage" : "veinvineseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [-2, 1],
+      "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
 
