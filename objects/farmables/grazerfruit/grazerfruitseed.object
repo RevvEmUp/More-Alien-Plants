@@ -1,1 +1,59 @@
+{
+  "objectName" : "grazerfruitseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Uncommon",
+  "category" : "seed",
+  "description" : "A parasitic plant grown on a block of flesh.",
+  "shortdescription" : "Grazerfruit Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 520,
 
+  "apexDescription" : "A parasitic branch typically found on Mooshi and Fluffalo.",
+  "avianDescription" : "Thank goodness this plant is only interested in mammals.",
+  "floranDescription" : "I like plant. Plant alssso feed on meat like Floran.",
+  "glitchDescription" : "Relieved. This plant does not feed on inorganic life such as the Glitch.",
+  "humanDescription" : "Clever, using a flesh block to feed the plant.",
+  "hylotlDescription" : "What an interesting specimen.",
+  "novakidDescription" : "I imagine this would burn up if attached to my kin.",
+
+  "inventoryIcon" : "grazerfruitseedicon.png",
+
+  "tooltipKind" : "seed",
+  "largeImage" : "grazerfruitseed.png:default.3.0",
+
+
+  "orientations" : [
+    {
+      "dualImage" : "grazerfruitseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [645, 705]
+    },
+    {
+      "duration" : [645, 705]
+    },
+    {
+      "alts" : 5,
+      "duration" : [2610, 2790]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "grazerfruitHarvest",
+      "resetToStage" : 2
+    }
+  ]
+}
