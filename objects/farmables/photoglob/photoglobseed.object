@@ -1,7 +1,7 @@
 {
   "objectName" : "photoglobseed",
   "colonyTags" : ["nature"],
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "category" : "seed",
   "description" : "A glowing taproot.",
   "shortdescription" : "Photoglob Seed",
