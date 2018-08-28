@@ -7,7 +7,7 @@
   "shortdescription" : "Carapakel Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 1000,
+  "price" : 62,
 
   "apexDescription" : "This fruit closely resembles a beetle.",
   "avianDescription" : "It'll take a few pecks to get through this fruit.",
