@@ -46,7 +46,5 @@
       "harvestPool" : "veingrassHarvest",
       "resetToStage" : 0
     }
-  ],
-
-  "maxImmersion" : 0.1
+  ]
 }
