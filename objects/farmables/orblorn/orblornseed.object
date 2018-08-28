@@ -1,7 +1,7 @@
 {
   "objectName" : "orblornseed",
   "colonyTags" : ["nature"],
-  "rarity" : "Common",
+  "rarity" : "Rare",
   "category" : "seed",
   "description" : "That's a big fruit.",
   "shortdescription" : "Orblorn Seed",
@@ -48,7 +48,7 @@
     },
     {
       "alts" : 5,
-      "duration" : [645, 705]
+      "duration" : [2610, 2790]
     },
     {
       "alts" : 5,
