@@ -7,7 +7,7 @@
   "shortdescription" : "Fattyleaf Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 12,
+  "price" : 200,
 
   "apexDescription" : "A fast food restaurant has more fat than this.",
   "avianDescription" : "The leaves feel squishy... and sticky.",
