@@ -1,1 +1,61 @@
+{
+  "objectName" : "marrowfruitseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "Bone marrow is leaking out of the stem.",
+  "shortdescription" : "Marrowfruit Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 720,
 
+  "apexDescription" : "This plant appears to be petrified, but still alive.",
+  "avianDescription" : "The stem feels like bones.",
+  "floranDescription" : "Bone plant bleedsss meatsss.",
+  "glitchDescription" : "Humorous. I believe the human term is 'are you happy to see me?'.",
+  "humanDescription" : "Someone's happy to see me.",
+  "hylotlDescription" : "The surface of the stem feels like dead coral.",
+  "novakidDescription" : "This must be some twisted Floran sculpture.",
+
+  "inventoryIcon" : "marrowfruitseedicon.png",
+
+  "tooltipKind" : "seed",
+  "largeImage" : "marrowfruitseed.png:default.3.0",
+
+
+  "orientations" : [
+    {
+      "dualImage" : "marrowfruitseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3], [1, 4], [0, 4] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [645, 705]
+    },
+    {
+      "duration" : [645, 705]
+    },
+    {
+      "alts" : 5,
+      "duration" : [2610, 2790]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "marrowfruitHarvest",
+      "resetToStage" : 2
+    }
+  ],
+
+  "maxImmersion" : 0.1
+}
