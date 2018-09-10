@@ -1,1 +1,61 @@
+{
+  "objectName" : "funnelberryseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : ".",
+  "shortdescription" : "Funnelberry Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 440,
 
+  "apexDescription" : "NOT THE CONE!",
+  "avianDescription" : "Does not double as a wash basin. Trust me.",
+  "floranDescription" : "Upside-down plant collect berriesss.",
+  "glitchDescription" : "Observation. The cone is a single leaf",
+  "humanDescription" : "It's like the basket filled itself.",
+  "hylotlDescription" : "The shape of the plant is handy for collection.",
+  "novakidDescription" : "Hey, what's in here?",
+
+  "inventoryIcon" : "funnelberryseedicon.png",
+
+  "tooltipKind" : "seed",
+  "largeImage" : "funnelberryseed.png:default.3.0",
+
+
+  "orientations" : [
+    {
+      "dualImage" : "funnelberryseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [645, 705]
+    },
+    {
+      "duration" : [645, 705]
+    },
+    {
+      "alts" : 5,
+      "duration" : [2610, 2790]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "funnelberryHarvest",
+      "resetToStage" : 2
+    }
+  ],
+
+  "maxImmersion" : 0.125
+}
