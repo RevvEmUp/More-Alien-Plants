@@ -9,13 +9,13 @@
   "printable" : false,
   "price" : 520,
 
-  "apexDescription" : "",
-  "avianDescription" : ".",
-  "floranDescription" : "",
-  "glitchDescription" : "",
-  "humanDescription" : "",
-  "hylotlDescription" : "",
-  "novakidDescription" : "",
+  "apexDescription" : "It looks like an anemone",
+  "avianDescription" : "I-is that skin between the branches?",
+  "floranDescription" : "Bonesss.",
+  "glitchDescription" : "Analysis. Despite the name, it is not structured like bone.",
+  "humanDescription" : "I'm more confused as to why this anemone is out of water than the bones hanging from it.",
+  "hylotlDescription" : "Shouldn't this be underwater?",
+  "novakidDescription" : "What's this danglin'?",
 
   "inventoryIcon" : "bonefruitseedicon.png",
 
