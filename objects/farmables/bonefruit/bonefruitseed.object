@@ -1,9 +1,9 @@
 {
   "objectName" : "bonefruitseed",
   "colonyTags" : ["nature"],
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "category" : "seed",
-  "description" : "",
+  "description" : "It feels kinda powdery.",
   "shortdescription" : "Bonefruit Seed",
   "objectType" : "farmable",
   "printable" : false,
