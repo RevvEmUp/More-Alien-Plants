@@ -12,6 +12,5 @@
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "orblornseed" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "photoglobseed" } },
   { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "veingrassseed" } },
-  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "veinvineseed" } },
-  { "op" : "replace", "path" : "/interactData/sellFactor", "value" : 1.0 }
+  { "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : "veinvineseed" } }
 ]
