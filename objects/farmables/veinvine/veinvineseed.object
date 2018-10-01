@@ -29,7 +29,7 @@
       "frames" : 1,
       "animationCycle" : 0.5,
 
-      "spaces" : [ [0, 0], [0, 1] ],
+      "spaces" : [ [0, 0], [0, -1], [0,-2], [0, -3] ],
       "requireTilledAnchors" : false,
       "anchors" : [ "top" ]
 
@@ -52,6 +52,5 @@
     }
   ],
 
-  "consumeSoilMoisture" : false,
-  "maxImmersion" : 0.99
+  "consumeSoilMoisture" : false
   }
