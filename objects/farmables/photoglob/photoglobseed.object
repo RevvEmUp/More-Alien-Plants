@@ -26,6 +26,21 @@
   "orientations" : [
     {
       "imageLayers" : [{ "image" : "photoglobseed.png:<color>.<stage>.<alt>", "fullbright" : true}, { "image" : "photoglobseedlit.png:<color>.<stage>.<alt>"}],
+	  "direction" : "left",
+	  "flipImages" : true,
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    },
+	{
+      "imageLayers" : [{ "image" : "photoglobseed.png:<color>.<stage>.<alt>", "fullbright" : true}, { "image" : "photoglobseedlit.png:<color>.<stage>.<alt>"}],
+	  "direction" : "right",
+	  "flipImages" : true,
       "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
