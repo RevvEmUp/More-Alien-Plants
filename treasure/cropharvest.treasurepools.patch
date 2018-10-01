@@ -79,7 +79,7 @@
 "path" : "/glycoleafHarvest",
 "value" : [ [0, {
 	"pool" : [
-		{"weight" : 0.89, "item" : "glycolead" },
+		{"weight" : 0.89, "item" : "glycoleaf" },
 		{"weight" : 0.10, "item" : "glycoleafseed" },
 		{"weight" : 0.01, "item" : "plantfibre" }
 	],
