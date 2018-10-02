@@ -40,7 +40,6 @@
 	{
       "imageLayers" : [{ "image" : "photoglobseed.png:<color>.<stage>.<alt>", "fullbright" : true}, { "image" : "photoglobseedlit.png:<color>.<stage>.<alt>"}],
 	  "direction" : "right",
-	  "flipImages" : true,
       "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
@@ -63,7 +62,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "photoglobHarvest"
+      "harvestPool" : "photoglobHarvest",
+      "resetToStage" : 0
     }
   ],
 
