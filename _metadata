@@ -1,7 +1,10 @@
 {
   "author" : "777Dan777/RevvEmUp",
-  "description" : "An addon for Crabford's More Alien Food mod.",
+  "description" : "This mod adds crops from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=880732416]More Alien Food[/url]. They can be obtained from that mod's Import Machine. They are priced high and take longer to grow than vanilla crops for balancing purposes.\n\nIncludes:\n- Bonefruit Seed\n- Carapakel Seed\n- Eyeberry Seed\n- Funnelberry Seed\n- Glycoleaf Seed\n- Grazerfruit Seed\n- Marrowfruit Seed\n- Meatsack Seed\n- Mebulon Seed\n- Orblorn Seed\n- Photoglob Seed\n- Veingrass Seed\n- Veinvine Seed\n\nCredits:\n- [url=https://steamcommunity.com/profiles/76561198089235226]Crabford[/url], for  [url=https://steamcommunity.com/sharedfiles/filedetails/?id=880732416]More Alien Food[/url]\n- [url=https://community.playstarbound.com/members/petrenko.192352/]Pentrenko[/url], for [url=https://community.playstarbound.com/resources/hedge-cactus-bamboo-petrenkos-farmables.250/]Petrenko's Farmables[/url] Turf Grass\n- [url=https://steamcommunity.com/profiles/76561198073902381]greenRAM[/url], for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=731058758]Ore Plants+ (RAMs version)[/url] T0 Kelp Seed",
   "friendlyName" : "More Alien Plants",
+  "link" : "steam://url/CommunityFilePage/1529951442",
   "name" : "morealienplants",
+  "steamContentId" : "1529951442",
+  "tags" : "Furniture and Objects",
   "version" : "1.0"
 }
